@@ -8,6 +8,8 @@ import be.intecbrussel.sellers.PriceList;
 public class IceCreamApp {
     public static void main(String[] args) {
         PriceList aPriceList = new PriceList(1,2,3);
+        
+        // opgave vroeg om salon in een Seller referentie te steken: polymorfisme.
         IceCreamSalon anIceCreamSalon = new IceCreamSalon(aPriceList);
 
         IceCreamSeller anIceCreamSeller = anIceCreamSalon ;
