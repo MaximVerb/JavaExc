@@ -56,7 +56,7 @@ public class IceCreamCar implements IceCreamSeller {
             throw new NoMoreIceCreamException("There are no more magnums left in stock.");
             }
     }
-
+            // 1 stijl van haakjes/braces, geen c-stijl en java-stijl door elkaar.
     private Magnum prepareMagnum (MagnumType aType) {
         Magnum aMagnum = new Magnum(aType);
         profit+=(priceList.getMagnumStandardPrice(aType));
