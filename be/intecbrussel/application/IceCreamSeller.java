@@ -10,6 +10,7 @@ public interface IceCreamSeller extends Profitable{
 
     Magnum orderMagnum(MagnumType aType);
 
+    // niet fout maar overbodig.
     double getProfit();
 
 }
